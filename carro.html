@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda FLUXX</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <aside>
+            <header>
+                <h1 class="logo"><i class="bi bi-pc-display"></i>Tienda FLUXX</h1>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a class="boton-main boton-volver" href="./index.html">Volver al menú</a>
+                    </li>
+                    <li>
+                        <a class="boton-main boton-carrito active" href="./carro.html">🛒 Carrito</a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="text-footer">IAN CAMPOS | TIENDA FLUXX</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal">Tu Carrito</h2>
+            <section class="contenedor-carrito">
+                <p id="carrito-limpio" class="carrito-vacio disabled">Tu carrito no tiene productos</p>
+                
+                <ul id="contenedor-carro" class="carrito-productos disabled"></ul>
+
+                <div id="carrito-interaccion" class="carrito-interaccion disabled">
+                    <div class="carrito-interaccion-izquierda">
+                        <button id="carrito-interaccion-vaciar" class="carrito-interaccion-vaciar">Limpiar Carrito</button>
+                    </div>
+                    <div class="carrito-interaccion-derecha">
+                        <div class="carrito-interaccion-total">
+                            <p>El precio de su compra es:</p>
+                            <p id="total">$22222</p>
+                        </div>
+                        <button id="carrito-interaccion-comprar" class="carrito-interaccion-comprar">Comprar</button>
+                    </div>
+                </div>
+                <p id="carrito-finalizado" class="carrito-finalizado disabled">Muchas gracias por confiar en Tienda Fluxx</p>
+            </section>
+        </main>
+    </div>
+    
+    <script src="./js/carrito.js"></script>
+</body>
+</html>
