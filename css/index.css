@@ -299,7 +299,7 @@ main {
     display: none;
 }
 
-/* Estilo general para la sección de interacción del carrito */
+
 .carrito-interaccion {
     display: flex;
     justify-content: space-between;
@@ -312,12 +312,12 @@ main {
     border-top: 1px solid #ddd;
 }
 
-/* Estilo para el lado izquierdo (limpiar carrito) */
+
 .carrito-interaccion-izquierda {
     flex: 1;
 }
 
-/* Botón para limpiar el carrito */
+
 .carrito-interaccion-vaciar {
     padding: 10px 20px;
     background-color: #e74c3c;
@@ -333,14 +333,14 @@ main {
     background-color: #c0392b;
 }
 
-/* Estilo para el lado derecho (total y botón comprar) */
+
 .carrito-interaccion-derecha {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-/* Total de la compra */
+
 .carrito-interaccion-total {
     font-size: 18px;
     color: #333;
@@ -351,14 +351,14 @@ main {
     margin-bottom: 5px;
 }
 
-/* Precio total */
+
 #total {
     font-size: 24px;
     color: #27ae60;
     font-weight: bold;
 }
 
-/* Botón para realizar la compra */
+
 .carrito-interaccion-comprar {
     padding: 10px 20px;
     background-color: #1abc9c;
@@ -374,7 +374,7 @@ main {
     background-color: #16a085;
 }
 
-/* Estilo para el mensaje final cuando el carrito ha sido finalizado */
+
 .carrito-finalizado {
     margin-top: 20px;
     font-size: 18px;
@@ -383,12 +383,12 @@ main {
     display: none;
 }
 
-/* Mostrar el mensaje cuando se elimina la clase disabled */
+
 .carrito-finalizado:not(.disabled) {
     display: block;
 }
 
-/* Ocultar elementos cuando tienen la clase disabled */
+
 .disabled {
     display: none;
 }
