@@ -1,0 +1,134 @@
+[
+    {
+        "id": "procesador-1", "titulo":"ryzen 5 3600",
+        "img": "./img/ryzen53600.jpg",
+        "categoria": {
+            "nombre": "Procesadores",
+            "id": "procesador"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "procesador-2", "titulo": "ryzen 7 3700x",
+        "img": "./img/ryzen73700x.jpg",
+        "categoria": {
+            "nombre": "Procesadores",
+            "id": "procesador"
+        },
+        "precio": 2222
+    },
+    {
+        "id": "procesador-3", "titulo": "ryzen 9 5600x",
+        "img": "./img/ryzen95600x.jpg",
+        "categoria": {
+            "nombre": "Procesadores",
+            "id": "procesador"
+        },
+        "precio": 3333
+    },
+    {
+        "id": "procesador-4", "titulo": "intel i5-11400f",
+        "img": "./img/inteli5-11400f.jpg",
+        "categoria": {
+            "nombre": "Procesadores",
+            "id": "procesador"
+        },
+        "precio": 444
+    },
+    {
+        "id": "procesador-5", "titulo": "intel i5-9400f",
+        "img": "./img/inteli5-9400f.jpg", "categoria": {
+            "nombre": "Procesadores",
+            "id": "procesador"
+        },
+        "precio": 5555
+    },
+    {
+        "id": "procesador-6", "titulo": "intel i9-9900k",
+        "img": "./img/inteli9-9900k.jpg", "categoria": {
+            "nombre": "Procesadores",
+            "id": "procesador"
+        },
+        "precio": 5555
+    },
+    {
+        "id": "amd-1", "titulo": "AMD rx 6400",
+        "img": "./img/amdrx6400.jpg", "categoria": {
+            "nombre": "Amd",
+            "id": "amd"
+        },
+        "precio": 5555
+    },
+    {
+        "id": "amd-2", "titulo": "AMD rx 6500xt",
+        "img": "./img/amdrx6500xt.jpg", "categoria": {
+            "nombre": "Amd",
+            "id": "amd"
+        },
+        "precio": 5555
+    },
+    {
+        "id": "amd-3", "titulo": "AMD rx 6800xt",
+        "img": "./img/amdrx6800xt.jpg", "categoria": {
+            "nombre": "Amd",
+            "id": "amd"
+        },
+        "precio": 5555
+    },
+    {
+        "id": "amd-4", "titulo": "AMD rx 7600xt",
+        "img": "./img/amdrx7600xt.jpg", "categoria": {
+            "nombre": "Amd",
+            "id": "amd"
+        },
+        "precio": 5555
+    },
+    {
+        "id": "amd-5", "titulo": "AMD rx 7800xt",
+        "img": "./img/amdrx7800xt.jpg", "categoria": {
+            "nombre": "Amd",
+            "id": "amd"
+        },
+        "precio": 5555
+    },
+    {
+        "id": "nvidia-1", "titulo": "nvidia RTX 2080",
+        "img": "./img/nvidiartx2080.jpg", "categoria": {
+            "nombre": "Nvidia",
+            "id": "nvidia"
+        },
+        "precio": 5555
+    },
+    {
+        "id": "nvidia-2", "titulo": "nvidia RTX 2060",
+        "img": "./img/nvidia2060.jpg", "categoria": {
+            "nombre": "Nvidia",
+            "id": "nvidia"
+        },
+        "precio": 5555
+    },
+    {
+        "id": "nvidia-3", "titulo": "nvidia RTX 4070",
+        "img": "./img/nvidia4070.jpg", "categoria": {
+            "nombre": "Nvidia",
+            "id": "nvidia"
+        },
+        "precio": 5555
+    },
+    {
+        "id": "nvidia-4", "titulo": "nvidia GTX 970",
+        "img": "./img/nvidiagtx970.jpg", "categoria": {
+            "nombre": "Nvidia",
+            "id": "nvidia"
+        },
+        "precio": 5555
+    },
+    {
+        "id": "nvidia-5", "titulo": "nvidia GTX 1080ti",
+        "img": "./img/nvidiagtx1080ti.jpg", "categoria": {
+            "nombre": "Nvidia",
+            "id": "nvidia"
+        },
+        "precio": 5555
+    }
+]
